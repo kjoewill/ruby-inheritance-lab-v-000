@@ -19,4 +19,4 @@ steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-puts "He also leaned this: '#{steve.learn(avi.teach)first}'"
+puts "He also leaned this: #{steve.learn(avi.teach)first}"
